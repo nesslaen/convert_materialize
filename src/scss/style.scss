@@ -16,4 +16,21 @@
 @import "components/navbar";
 @import "components/typography";
 @import "components/grid";
+@import "components/forms/forms";
+@import "components/buttons";
+@import "components/waves";
+@import "components/cards";
+
+//header
+@import "components/header";
+
+body{
+	background-color: #ccc;
+	min-width: 320px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
 

@@ -1,0 +1,60 @@
+header{
+	padding: 88px;
+	background-image: url(../img/bgtop.jpg);
+	max-width: 1600px;
+	margin: 0 auto;
+	h1{
+		font-weight: 300;
+		font-size: 56px;
+		color: #D6D9DA;
+		margin: 0 0 32px;
+	}
+	p{
+		font-size: 16px;
+		font-weight: 300;
+		margin: 0 auto 64px;
+		color: #fff;
+		width: 608px;
+	}
+}
+
+.logo{
+	display: block;
+	width: 156px;
+    margin: 0 auto $headerlogo_margin_bottom;
+	&::before{
+		display: block;
+		content: '';
+		background: url(../img/logo.png);
+		height: 36px;
+	}
+}
+
+
+.form{
+	width: 380px;
+	padding: 40px;
+	margin: 0 auto;
+	h2{
+		font-size: 24px;
+		font-weight: normal;
+		margin-top: 0;
+	}
+}
+
+.btn{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 16px;
+	background-color: #B622B5;
+	width: 219px;
+    margin: 0 auto;
+    display: block;
+	&:hover{
+		background-color: darken(#B622B5, 15%);
+	}
+	&:focus{
+		background-color: darken(#B622B5, 15%);
+	}
+}
