@@ -30,7 +30,35 @@
       			</div>
       			<button class="btn waves-effect waves-light" type="submit" name="action">Apply for free trial</button>
 			</form>	
+			<a href="#1" class="material-icons arrow_down">keyboard_arrow_down</a>
 		</header>
+
+		<div class="pre_features">
+			<div class="row pre_features_mob">
+				<div class="col s12 m6 description">
+					<h2 class="center-align">This is your first amazing feature and it's awesome!</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt id est laborum.</p>
+				</div>
+				<div class="col s12 m6 content ">
+					<div class="benefit">
+						<div class="img_container">
+							<img class="materialboxed" src="img/man1.jpg" alt="man">
+						</div>
+						<h3>First benefit</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+					</div>
+					<div class="benefit">
+						<div class="img_container">
+							<img class="materialboxed" src="img/man2.jpg" alt="man">
+						</div>
+						<h3>Second benefit</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco la</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 
 
 
@@ -39,5 +67,10 @@
 
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="../src/js/bin/materialize.min.js"></script>
+      <script type="text/javascript">
+      	$(document).ready(function(){
+		$('.materialboxed').materialbox();
+		});
+      </script>
 	</body>
 </html>

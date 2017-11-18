@@ -20,17 +20,22 @@
 @import "components/buttons";
 @import "components/waves";
 @import "components/cards";
+@import "components/icons-material-design";
+@import "components/modal";
+@import "components/materialbox";
 
 //header
 @import "components/header";
-
-body{
-	background-color: #ccc;
-	min-width: 320px;
-}
+//main
+@import "components/features";
 
 *{
 	box-sizing: border-box;
 }
 
+body{
+	min-width: 320px;
+	max-width: 1600px;
+	margin: 0 auto;
+}
 

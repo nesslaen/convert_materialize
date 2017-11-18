@@ -1,27 +1,26 @@
 header{
-	padding: 88px;
+	padding: 32px;
 	background-image: url(../img/bgtop.jpg);
-	max-width: 1600px;
-	margin: 0 auto;
+	margin: 0 auto 24px;
+	background-size: cover;
 	h1{
 		font-weight: 300;
-		font-size: 56px;
+		font-size: 29px;
 		color: #D6D9DA;
-		margin: 0 0 32px;
+		margin: 0 0 $header_mob_marginb;
 	}
 	p{
 		font-size: 16px;
 		font-weight: 300;
-		margin: 0 auto 64px;
+		margin: 0 auto $header_mob_marginb;
 		color: #fff;
-		width: 608px;
 	}
 }
 
 .logo{
 	display: block;
 	width: 156px;
-    margin: 0 auto $headerlogo_margin_bottom;
+    margin: 0 auto $header_mob_marginb;
 	&::before{
 		display: block;
 		content: '';
@@ -32,9 +31,8 @@ header{
 
 
 .form{
-	width: 380px;
-	padding: 40px;
-	margin: 0 auto;
+	padding: 16px;
+	margin: 0 auto $header_mob_marginb;
 	h2{
 		font-size: 24px;
 		font-weight: normal;
@@ -57,4 +55,21 @@ header{
 	&:focus{
 		background-color: darken(#B622B5, 15%);
 	}
+}
+
+.arrow_down{
+	display: block;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 auto;
+    width: 40px;
+    &:hover{
+    	opacity: 0.54;
+    	transition: .3s ease-out;
+    }
+}
+
+.cont{
+	width: 450px;
+	margin: 0 auto;
 }
