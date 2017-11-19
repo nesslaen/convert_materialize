@@ -1,0 +1,16 @@
+.gallery{
+	.img_container.col.s12{
+		height: 232px;
+		padding: 0;
+	    overflow: hidden;
+		img{
+			position: relative;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+		}
+	}
+	.col.s12{
+		padding: 0;
+	}
+}

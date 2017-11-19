@@ -28,6 +28,7 @@
 @import "components/header";
 //main
 @import "components/features";
+@import "components/gallery";
 
 *{
 	box-sizing: border-box;
@@ -35,7 +36,6 @@
 
 body{
 	min-width: 320px;
-	max-width: 1600px;
 	margin: 0 auto;
 }
 
